@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  color: white;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main .content {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: lighter;
+  margin-top: 40px;
+}
+
+.content h2 {
+  align-items: center;
+  font-weight: lighter;
+  font-size: 0.97rem;
+}
+
+.item_symbol,
+.market_cap_rank {
+  width: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content .symbol {
+  width: 20%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.symbol img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.content .price_change_percentage_24h {
+  color: green;
+}
+.content .red {
+  color: red;
+}
+
+@media screen and (max-width: 668px) {
+  .main .content {
+    width: 95%;
+  }
+
+  .last_upadted {
+    display: none;
+  }
+}

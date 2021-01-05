@@ -1,0 +1,20 @@
+.fa-search {
+  width: 250px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-search input {
+  width: 90%;
+  margin: auto;
+  border: none;
+  background-color: antiquewhite;
+  font-size: 1rem;
+  height: 2em;
+  padding: 5px;
+  border-radius: 10px;
+  outline: none;
+}
